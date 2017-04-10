@@ -1,0 +1,2 @@
+# someshit
+For little scripts
