@@ -116,7 +116,7 @@ function AutoPXLS(images){
         }
       }
       if(color_id < 0)
-        console.log("pixel at x:" + coords.x + " y: " + coords.y + " has incorrect color.");
+        console.log("pixel at x:" + coords.x + " y: " + coords.y + " has incorrect color. Values = " + pixel[coords.x] + " " + pixel[coords.y]);
       
       return color_id;
     }
